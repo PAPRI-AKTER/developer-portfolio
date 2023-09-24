@@ -1,15 +1,25 @@
 body{font-family: 'Poppins', sans-serif;
 
+  }
+  h1{
+    font-size: 50PX;
   } 
+  h2{
+    font-size: 40PX;
+
+  }
   .orange-color {
     color:rgb(232, 15, 196);
   }
-   section{
-    display: flex;
+   .flexible-container{
+
+  display: flex;
+    margin-bottom:  150px;
    }
 
     .half-width{
         width: 50%;
+        
     }
     .half-width img{
         width: 100%;
@@ -23,5 +33,44 @@ body{font-family: 'Poppins', sans-serif;
 
         border-radius: 5px;
     }
+    .dream-big{
+      background-image:url(exp-bg.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      
+    }
+    .experience-area{
+      background-image: url(exp-bg.png);
+      background-repeat: no-repeat;
+      background-position: left;
+    }
+    .experience-item{
+      width:40%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 20PX;
+      border-radius: 10px;
+      box-shadow: 10px 10px 40px grey;
+    
+      
+
+    }
+#web-dev-experience{
+  border-left: 7PX solid;
+  border-image: linear-gradient(blue,cyan);
+  border-image-slice:  1;
+
+}
+
+#full-strack-experience{
+  border-left: 7PX solid;
+  border-image: linear-gradient(orange,tomato);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+
+}
+
 
 
